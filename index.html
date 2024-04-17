@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    
+    body{
+        font-family: 'Courier New', Courier, monospace;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        background-color: rgb(136, 185, 185);
+    }
+
+    .container{
+        text-align: center;
+    }
+
+    input[type='number'],
+    button{
+        padding: 10px;
+        margin: 10px;
+    }
+    
+  
+</style>
+<body>
+   <div class="container">
+    <input type="number" id="time" value="10" style="text-align: center;" >
+    <h1 id="count">0</h1>
+    <button id="start">start</button>
+    <button id="restart">restart</button>
+    <h1 id="count-per-second">0</h1>
+    <h1 id="record">Ваш рекорд 0</h1>
+   </div>
+
+   <script src="main.js"></script> 
+</body>
+</html>
